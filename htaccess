@@ -1,0 +1,36 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page11978319.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^memoryface$ page10347496.html [NC]
+RewriteRule ^memoryface/$ page10347496.html [NC]
+
+RewriteRule ^unuverhack$ page9582280.html [NC]
+RewriteRule ^unuverhack/$ page9582280.html [NC]
+
+RewriteRule ^memory$ page10369832.html [NC]
+RewriteRule ^memory/$ page10369832.html [NC]
+
+RewriteRule ^test$ page10551402.html [NC]
+RewriteRule ^test/$ page10551402.html [NC]
+
+RewriteRule ^freud$ page10875653.html [NC]
+RewriteRule ^freud/$ page10875653.html [NC]
+
+RewriteRule ^taleme$ page10894561.html [NC]
+RewriteRule ^taleme/$ page10894561.html [NC]
+
+RewriteRule ^stabilnost$ page14749913.html [NC]
+RewriteRule ^stabilnost/$ page14749913.html [NC]
+
+RewriteRule ^risk$ page14755281.html [NC]
+RewriteRule ^risk/$ page14755281.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild6266-6130-4132-a362-633134646636/Insta.ico [R=302,L]
+
